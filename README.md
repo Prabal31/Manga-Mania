@@ -23,7 +23,7 @@ You need the following tools installed on your system:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/manga-mania.git
+git clone [https://github.com/yourusername/manga-mania.git](https://github.com/Prabal31/MangaStore.git)
 
 # Navigate to the project directory
 cd manga-mania
