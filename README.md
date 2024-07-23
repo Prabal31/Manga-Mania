@@ -1,56 +1,58 @@
-# manga-store
+# Manga Store
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Welcome to the Manga Store! This is an online platform built using Ember.js to browse and purchase your favorite manga.
 
-## Prerequisites
+## Table of Contents
 
-You will need the following things properly installed on your computer.
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/) (with npm)
-- [Ember CLI](https://cli.emberjs.com/release/)
-- [Google Chrome](https://google.com/chrome/)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
-- `git clone <repository-url>` this repository
-- `cd manga-store`
-- `npm install`
+To get started with the project, follow these steps:
 
-## Running / Development
+1. **Clone the repository**:
 
-- `npm run start`
-- Visit your app at [http://localhost:4200](http://localhost:4200).
-- Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+   ```bash
+   git clone https://github.com/your-username/manga-store.git
+   cd manga-store
+Install dependencies:
 
-### Code Generators
+Ensure you have Node.js and npm installed, then run:
 
-Make use of the many generators for code, try `ember help generate` for more details
+bash
+Copy code
+npm install
+Serve the application:
 
-### Running Tests
+Start the development server with:
 
-- `npm run test`
-- `npm run test:ember -- --server`
+bash
+Copy code
+ember serve
+Navigate to http://localhost:4200 to see the application in action.
 
-### Linting
+Usage
+Once the application is running, you can browse the manga collection, view details of individual manga items, and navigate through different sections of the store.
 
-- `npm run lint`
-- `npm run lint:fix`
+Features
+Home Page: Welcome page with navigation links to different sections of the store.
+Manga List: Browse a collection of manga with details like title, author, and price.
+Manga Item: View detailed information about a specific manga.
+Responsive Design: The application is designed to be responsive and works well on both desktop and mobile devices.
+Contributing
+We welcome contributions to the Manga Store project! If you would like to contribute, please follow these steps:
 
-### Building
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature-name).
+Make your changes.
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature/your-feature-name).
+Open a Pull Request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- `npm exec ember build` (development)
-- `npm run build` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-- [ember.js](https://emberjs.com/)
-- [ember-cli](https://cli.emberjs.com/release/)
-- Development Browser Extensions
-  - [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  - [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Thank you for checking out the Manga Store project! If you have any questions or suggestions, feel free to open an issue or contact us.
