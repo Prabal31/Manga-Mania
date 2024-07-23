@@ -1,58 +1,35 @@
 # Manga Store
 
-Welcome to the Manga Store! This is an online platform built using Ember.js to browse and purchase your favorite manga.
+Welcome to Manga Mania, an online store built with Ember.js, designed to bring the latest and most popular manga right to your doorstep. Whether you're a seasoned manga reader or new to the world of Japanese comics, Manga Mania offers a user-friendly platform to browse, search, and purchase your favorite titles.
 
-## Table of Contents
+## Features
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+- **User Profiles**: Create and manage your own profile to keep track of your manga collection and wish list.
+- **Reviews and Ratings**: Read reviews and ratings from other users or leave your own feedback.
+- **Secure Checkout**: A streamlined and secure checkout process.
 
-## Installation
+## Getting Started
 
-To get started with the project, follow these steps:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-1. **Clone the repository**:
+### Prerequisites
 
-   ```bash
-   git clone https://github.com/your-username/manga-store.git
-   cd manga-store
-Install dependencies:
+You need the following tools installed on your system:
+- Node.js
+- Ember CLI
+- Git
 
-Ensure you have Node.js and npm installed, then run:
+### Installation
 
-bash
-Copy code
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/manga-mania.git
+
+# Navigate to the project directory
+cd manga-mania
+
+# Install dependencies
 npm install
-Serve the application:
 
-Start the development server with:
-
-bash
-Copy code
+# Serve the application
 ember serve
-Navigate to http://localhost:4200 to see the application in action.
-
-Usage
-Once the application is running, you can browse the manga collection, view details of individual manga items, and navigate through different sections of the store.
-
-Features
-Home Page: Welcome page with navigation links to different sections of the store.
-Manga List: Browse a collection of manga with details like title, author, and price.
-Manga Item: View detailed information about a specific manga.
-Responsive Design: The application is designed to be responsive and works well on both desktop and mobile devices.
-Contributing
-We welcome contributions to the Manga Store project! If you would like to contribute, please follow these steps:
-
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature-name).
-Make your changes.
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature-name).
-Open a Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Thank you for checking out the Manga Store project! If you have any questions or suggestions, feel free to open an issue or contact us.
