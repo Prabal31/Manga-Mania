@@ -1,4 +1,4 @@
-{{page-title "MangaStore"}}
+{{page-title "Shop"}}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,6 @@
     <title>Manga Store</title>
     <style>
         body {
-            
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -30,8 +29,10 @@
             margin: 0 15px;
             text-decoration: none;
         }
-        
-        
+        .container {
+            padding: 20px;
+        }
+    
         footer {
             background-color: #333;
             color: #fff;
@@ -51,11 +52,10 @@
 
 <nav>
     <a href="#">Home</a>
-    <a href="#">Shop</a>
+    <LinkTo @route="shop" class="Button">Shop</LinkTo>
     <a href="#">About</a>
     <a href="#">Contact</a>
 </nav>
-
 <footer>
     <p>&copy; 2024 Manga Store. All rights reserved.</p>
 </footer>
@@ -63,5 +63,7 @@
 </body>
 </html>
 
+
+{{outlet}}
 
 {{outlet}}
