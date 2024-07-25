@@ -1,2 +1,136 @@
 {{page-title "About"}}
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - Manga Mania</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ff6347;
+    padding-bottom: 5px;
+}
+
+p, ul {
+    line-height: 1.6;
+    color: #666;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+/* Add responsive design for better mobile viewing */
+@media (max-width: 600px) {
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+}
+
+</style>
+<body>
+<main>
+    <section id="introduction">
+        <h2>Who We Are</h2>
+        <p>Manga Mania is your go-to platform for everything manga. From deep dives into classic series to the latest hot releases, we've got it all covered!</p>
+    </section>
+    <section id="our-story">
+        <h2>Our Story</h2>
+        <p>Founded in 2020 by a group of passionate manga fans, Manga Mania has grown to become a beloved community hub for manga lovers worldwide.</p>
+    </section>
+    <section id="meet-the-team">
+        <h2>Meet the Team</h2>
+        {{!-- Team member details go here --}}
+    </section>
+    <section id="what-we-do">
+        <h2>What We Do</h2>
+        <ul>
+            <li>Manga Reviews</li>
+            <li>Community Forums</li>
+            <li>Monthly Manga Picks</li>
+        </ul>
+    </section>
+    <section id="testimonials">
+        <h2>What Our Fans Say</h2>
+        {{!-- Testimonials go here --}}
+    </section>
+    <section id="future-plans">
+        <h2>Where We're Going</h2>
+        <p>We are always looking to expand our horizons and bring more manga content to our fans. Stay tuned for more exciting features!</p>
+    </section>
+</main>
+<footer>
+     <p>&copy; 2024 Manga Store. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
 {{outlet}}
